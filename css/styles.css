@@ -219,3 +219,78 @@ img {
 .home-description {
   margin-bottom: 2rem;
 }
+
+/*------------Button--------------------*/
+/*------------Contato------------------*/
+.button {
+  display: inline-block;
+  background-color: #52ab8c;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #40856c;
+}
+
+.button-icon {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  transition: 0.3s;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button--small {
+  padding: 0.75rem 1rem;
+}
+
+.button--link {
+  padding: 0;
+  background-color: transparent;
+  color: #52ab8c;
+}
+
+.button--link:hover {
+  background-color: transparent;
+  color: #40856c;
+}
+
+/*------Sobre----------*/
+
+.about-description {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2.5rem;
+}
+
+.about-info-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #242329;
+}
+
+.about-info-name {
+  font-size: 0.75rem;
+}
+
+.about-info-title,
+.about-info-name {
+  display: block;
+  text-align: center;
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+}
