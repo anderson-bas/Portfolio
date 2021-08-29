@@ -80,3 +80,30 @@ img {
   z-index: 100;
   background-color: #fbfbfe;
 }
+
+/*---Barra de navegação---*/
+.nav {
+  max-width: 986px;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo,
+.nav-toggle {
+  color: #242329;
+}
+
+.nav-logo:hover {
+  color: #52ab8c;
+}
+
+.nav-toggle {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.nav-toggle:hover {
+  color: #52ab8c;
+}
