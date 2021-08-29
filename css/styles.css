@@ -59,3 +59,24 @@ img {
 .section-subtitle {
   text-align: center;
 }
+
+/*---------Layout----------*/
+.container {
+  max-width: 768x;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fbfbfe;
+}
