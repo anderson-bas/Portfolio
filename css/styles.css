@@ -425,3 +425,100 @@ img {
   background-color: #52ab8c;
   transform: translate(6px, -7px);
 }
+/*--------Area de Atuação----------*/
+.services-container {
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.services-content {
+  position: relative;
+  background-color: #fff;
+  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.services-content:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.services-icon {
+  display: block;
+  font-size: 1.5rem;
+  color: #52ab8c;
+  margin-bottom: 1rem;
+}
+
+.services-title {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.services-button {
+  cursor: pointer;
+  font-size: 0.813rem;
+}
+
+.services-button:hover .button-icon {
+  transform: translateX(0.25rem);
+}
+
+.services-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.services-modal-content {
+  position: relative;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.services-modal-services {
+  row-gap: 1rem;
+}
+
+.services-modal-service {
+  display: flex;
+}
+
+.services-modal-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.services-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: #52ab8c;
+  cursor: pointer;
+}
+
+.services-modal-icon {
+  color: #52ab8c;
+  margin-right: 0.25rem;
+}
+/*Active modal*/
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
