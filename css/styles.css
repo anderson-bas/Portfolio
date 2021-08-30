@@ -366,3 +366,62 @@ img {
 .skills-open .skills-arrow {
   transform: rotate(-180deg);
 }
+/*---------Formação---------*/
+.qualification-tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.qualification-button {
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.qualification-button:hover {
+  color: #52ab8c;
+}
+
+.qualification-icon {
+  font-size: 1.8rem;
+  margin-right: 0.25rem;
+}
+
+.qualification-data {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.qualification-title {
+  font-size: 0.983rem;
+  font-weight: 500;
+}
+
+.qualification-subtitle {
+  display: inline-block;
+  font-size: 0.813;
+  margin-bottom: 1rem;
+}
+
+.qualification-calendar {
+  font-size: 0.75;
+  color: #a19fad;
+}
+
+.qualification-rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #52ab8c;
+  border-radius: 50%;
+}
+
+.qualification-line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #52ab8c;
+  transform: translate(6px, -7px);
+}
