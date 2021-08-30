@@ -294,3 +294,75 @@ img {
   display: flex;
   justify-content: center;
 }
+
+/*---------------------------------Habilidades----------------------------------------------*/
+.skills-container {
+  row-gap: 0;
+}
+
+.skills-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+.skills-icon,
+.skills-arrow {
+  font-size: 2rem;
+  color: #52ab8c;
+}
+
+.skills-icon {
+  margin-right: 0.75rem;
+}
+
+.skills-title {
+  font-size: 1.5rem;
+}
+
+.skills-subtitle {
+  font-size: 0.813rem;
+  color: #a19fad;
+}
+
+.skills-arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills-list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+
+.skills-titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.skills-name {
+  font-size: 0.983;
+  font-weight: 500;
+}
+
+.skills-bar {
+  height: 5px;
+  border-radius: 0.25rem;
+  background-color: #52ab8c;
+}
+
+.skills-close .skills-list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills-open .skills-list {
+  height: max-content;
+  margin-bottom: 2.5rem;
+}
+
+.skills-open .skills-arrow {
+  transform: rotate(-180deg);
+}
