@@ -572,3 +572,53 @@ img {
 .swiper-button-prev::after {
   color: #52ab8c;
 }
+
+/*-------Foooter-------*/
+.footer {
+  padding: 2rem;
+  background-color: #52ab8c;
+}
+
+.footer-container {
+  row-gap: 3.5rem;
+}
+
+.footer-bg {
+  background-color: #52ab8c;
+  padding: 2rem 0 3rem;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.footer-subtitle {
+  font-size: 0.813;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer-link:hover {
+  color: #4c9e81;
+}
+
+.footer-social {
+  font-size: 1.25rem;
+  margin-right: 1.5rem;
+}
+
+.footer-social:hover {
+  color: #4c9e81;
+}
+
+.footer-title,
+.footer-subtitle,
+.footer-link,
+.footer-social {
+  color: #fff;
+}
