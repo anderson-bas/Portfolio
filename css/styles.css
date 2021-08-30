@@ -522,3 +522,53 @@ img {
   opacity: 1;
   visibility: visible;
 }
+
+/*------portfolio-------*/
+
+.portfolio-container {
+  overflow: initial;
+}
+
+.portfolio-content {
+  padding: 0 1.5rem;
+}
+.portfolio-img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.portfolio-title {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-description {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-button:hover .button-icon {
+  transform: translateX(0.25rem);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  /* padding: 2rem; */
+  padding: 2rem;
+
+  color: #52ab8c;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  outline: none;
+}
+.swiper-button-next {
+  margin-right: 70px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #52ab8c;
+}
